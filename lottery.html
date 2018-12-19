@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #lottery .lot-btn {
+            height: 50px;
+            left: 208px;
+            overflow: hidden;
+            position: absolute;
+            top: 200px;
+            width: 50px;
+        }
+    
+        #lottery .lot-btn span {
+            cursor: pointer;
+            display: block;
+            height: 50px;
+            position: relative;
+            width: 50px;
+        }
+    
+        #lottery .first span {
+            background: url("images/1.png") no-repeat scroll 0 0 transparent;
+            background-size: 30px;
+        }
+        .image {
+            position: absolute; 
+            left: 47px; 
+            top: 47px; 
+            width: 352px; 
+            height: 352px;
+        }
+    </style>
+</head>
+<body>
+    <div id="lottery" style="position: absolute; left: 459px; top: 93px">
+        <img id="imgs" src="images/2.png" viewbox="0 0 352 30" class="image" />
+        <div class="arrow">
+        </div>
+        <div class="lot-btn first">
+            <span></span>
+        </div>
+    </div>
+    <button class="go">抽奖</button>
+
+    <script class="jquery library" src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jQueryRotate.2.2.js"></script>
+    <script type="text/javascript" src="js/demo.js"></script>
+</body>
+</html>
